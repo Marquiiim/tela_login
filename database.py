@@ -43,6 +43,6 @@ class DataBase:
             for user in self.users:
                 f.write(user + ";" + self.users[user][0] + ";" + self.users[user][1] + ";" + self.users[user][2] + "\n")
 
-                @staticmethod
-                def get_date():
-                    return str(datetime.datetime.now()).split(" ")[0]
+    @staticmethod
+    def get_date():
+        return str(datetime.datetime.now()).split(" ")[0]
